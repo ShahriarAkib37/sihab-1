@@ -1,0 +1,74 @@
+.navbar{
+    background-image: linear-gradient(to right, #d0dd7f, #61c48b, #00a1a3, #0078a8, #224b89);
+}
+.navbar li a {
+    color: rgb(231, 243, 0);
+    transition: 0.2s;
+}
+.navbar li:hover a {
+    color: #f30101;
+    font-family: monospace;
+    font-size: 19px;
+
+
+}
+.dropdown-menu li:hover a {
+    color: #224b89;
+    font-family: monospace;
+    font-size: 19px;
+
+
+}
+
+.banner {
+    margin-top: 80px;
+}
+
+.banner .col-lg-3  {
+    padding: 10px 5px 5px 10px;
+    background-color: #d0dd7f;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.23s;
+}
+.banner .col-lg-3:hover  {
+    
+    background-color: #11d051;
+    
+}
+.banner .col-lg-3 img {
+border-radius: 5px;
+   
+}
+.banner .col-lg-3 p {
+margin-bottom: 10px ;
+   font-size: 16px;
+   padding: 10px 0;
+}
+.banner .col-lg-3 h3 {
+
+  
+   padding: 10px 0;
+}
+
+
+.banner .button  {
+    margin-top: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+   background-color: blue;
+    color: #FFF;
+    border: 1px solid black;
+    font-size: 16px; 
+    text-decoration: none;
+margin-bottom: 20px;
+transition: 0.23s;
+}
+
+.banner .button:hover  {
+   
+color: black;
+background-color: red;
+
+
+}
